@@ -1,2 +1,2 @@
 # DronPi
-Placa controladora para ardupilot y Raspberry 
+Placa sensores para ardupilot y Raspberry 
