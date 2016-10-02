@@ -1,0 +1,110 @@
+** Drc report for /home/joan/Escritorio/electronica/dron/rasberry/escrudos/dronPi/dronPi.kicad_pcb **
+** Created on 2016-06-19 03:32:29 **
+
+** Found 28 DRC errors **
+ErrType(19): Pad cerca de pad
+    @ (147,652mm,102,148mm): Pad 1 en F.Cu, Sin cobre de IC2
+    @ (148,152mm,101,648mm): Pad 24 en F.Cu, Sin cobre de IC2
+ErrType(19): Pad cerca de pad
+    @ (147,652mm,104,148mm): Pad 6 en F.Cu, Sin cobre de IC2
+    @ (148,152mm,104,648mm): Pad 7 en F.Cu, Sin cobre de IC2
+ErrType(19): Pad cerca de pad
+    @ (150,152mm,101,648mm): Pad 19 en F.Cu, Sin cobre de IC2
+    @ (150,652mm,102,148mm): Pad 18 en F.Cu, Sin cobre de IC2
+ErrType(19): Pad cerca de pad
+    @ (150,152mm,104,648mm): Pad 12 en F.Cu, Sin cobre de IC2
+    @ (150,652mm,104,148mm): Pad 13 en F.Cu, Sin cobre de IC2
+ErrType(17): Dos finales de pista demasiado cerca
+    @ (129,028mm,116,082mm): Pista 0,250mm, red [GND] (1) en capa F.Cu, longitud: 0,354mm
+    @ (129,556mm,115,582mm): Pista 0,350mm, red [VDD_5v] (61) en capa F.Cu, longitud: 1,790mm
+ErrType(17): Dos finales de pista demasiado cerca
+    @ (149,752mm,105,463mm): Pista 0,200mm, red [GND] (1) en capa F.Cu, longitud: 0,512mm
+    @ (149,352mm,104,648mm): Pista 0,200mm, red [Net-(C13-Pad1)] (3) en capa F.Cu, longitud: 1,016mm
+ErrType(4): Pista cerca de pad
+    @ (149,752mm,104,648mm): Pista 0,200mm, red [GND] (1) en capa F.Cu, longitud: 0,815mm
+    @ (150,152mm,104,648mm): Pad 12 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (149,752mm,101,648mm): Pista 0,200mm, red [GND] (1) en capa F.Cu, longitud: 0,702mm
+    @ (149,352mm,101,648mm): Pad 21 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (150,660mm,102,140mm): Pista 0,200mm, red [GND] (1) en capa F.Cu, longitud: 0,011mm
+    @ (150,652mm,102,548mm): Pad 17 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (124,676mm,113,392mm): Pista 0,800mm, red [Net-(C4-Pad1)] (2) en capa F.Cu, longitud: 2,988mm
+    @ (125,476mm,113,392mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L1
+ErrType(4): Pista cerca de pad
+    @ (172,682mm,123,552mm): Pista 0,800mm, red [Net-(C4-Pad1)] (2) en capa F.Cu, longitud: 5,912mm
+    @ (173,482mm,123,552mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L2
+ErrType(4): Pista cerca de pad
+    @ (149,352mm,104,648mm): Pista 0,200mm, red [Net-(C13-Pad1)] (3) en capa F.Cu, longitud: 1,016mm
+    @ (149,752mm,104,648mm): Pad 11 en F.Cu, Sin cobre de IC2
+ErrType(15): Dos finales de pista demasiado cerca
+    @ (132,076mm,116,582mm): Pista 0,250mm, red [Net-(C3-Pad1)] (23) en capa F.Cu, longitud: 0,365mm
+    @ (132,076mm,116,082mm): Pista 0,350mm, red [BBB_+3v3] (50) en capa F.Cu, longitud: 0,724mm
+ErrType(16): Dos finales de pista demasiado cerca
+    @ (131,556mm,116,582mm): Pista 0,250mm, red [Net-(C3-Pad1)] (23) en capa F.Cu, longitud: 0,520mm
+    @ (132,076mm,116,082mm): Pista 0,350mm, red [BBB_+3v3] (50) en capa F.Cu, longitud: 0,724mm
+ErrType(4): Pista cerca de pad
+    @ (151,376mm,104,148mm): Pista 0,200mm, red [+3v3] (49) en capa F.Cu, longitud: 0,724mm
+    @ (150,652mm,103,748mm): Pad 14 en F.Cu, Sin cobre de IC2
+ErrType(17): Dos finales de pista demasiado cerca
+    @ (148,265mm,105,410mm): Pista 0,250mm, red [+3v3] (49) en capa F.Cu, longitud: 1,199mm
+    @ (148,601mm,105,675mm): Pista 0,200mm, red [SPI_MISO] (52) en capa F.Cu, longitud: 0,016mm
+ErrType(4): Pista cerca de pad
+    @ (148,552mm,104,648mm): Pista 0,200mm, red [+3v3] (49) en capa F.Cu, longitud: 0,475mm
+    @ (148,152mm,104,648mm): Pad 7 en F.Cu, Sin cobre de IC2
+ErrType(17): Dos finales de pista demasiado cerca
+    @ (148,552mm,105,123mm): Pista 0,200mm, red [+3v3] (49) en capa F.Cu, longitud: 0,406mm
+    @ (148,952mm,104,648mm): Pista 0,200mm, red [SPI_MISO] (52) en capa F.Cu, longitud: 0,654mm
+ErrType(4): Pista cerca de pad
+    @ (147,652mm,102,148mm): Pista 0,200mm, red [+3v3] (49) en capa F.Cu, longitud: 0,800mm
+    @ (147,652mm,102,548mm): Pad 2 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (148,952mm,104,648mm): Pista 0,200mm, red [SPI_MISO] (52) en capa F.Cu, longitud: 0,654mm
+    @ (148,552mm,104,648mm): Pad 8 en F.Cu, Sin cobre de IC2
+ErrType(17): Dos finales de pista demasiado cerca
+    @ (148,152mm,100,908mm): Pista 0,200mm, red [SPI_MOSI] (53) en capa F.Cu, longitud: 1,011mm
+    @ (148,552mm,100,330mm): Pista 0,200mm, red [SPI_CLK] (54) en capa F.Cu, longitud: 0,843mm
+ErrType(4): Pista cerca de pad
+    @ (148,152mm,101,648mm): Pista 0,200mm, red [SPI_MOSI] (53) en capa F.Cu, longitud: 0,740mm
+    @ (148,552mm,101,648mm): Pad 23 en F.Cu, Sin cobre de IC2
+ErrType(16): Dos finales de pista demasiado cerca
+    @ (148,552mm,100,330mm): Pista 0,200mm, red [SPI_CLK] (54) en capa F.Cu, longitud: 0,843mm
+    @ (148,952mm,100,984mm): Pista 0,200mm, red [SPI_CS_MPU] (85) en capa F.Cu, longitud: 0,206mm
+ErrType(4): Pista cerca de pad
+    @ (148,552mm,101,173mm): Pista 0,200mm, red [SPI_CLK] (54) en capa F.Cu, longitud: 0,475mm
+    @ (148,952mm,101,648mm): Pad 22 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (129,556mm,115,582mm): Pista 0,350mm, red [VDD_5v] (61) en capa F.Cu, longitud: 1,790mm
+    @ (129,556mm,116,082mm): Pad 2 en F.Cu, Sin cobre de IC1
+ErrType(4): Pista cerca de pad
+    @ (150,152mm,104,648mm): Pista 0,200mm, red [MPU_INT] (84) en capa F.Cu, longitud: 0,475mm
+    @ (149,752mm,104,648mm): Pad 11 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (148,952mm,101,648mm): Pista 0,200mm, red [SPI_CS_MPU] (85) en capa F.Cu, longitud: 0,664mm
+    @ (149,352mm,101,648mm): Pad 21 en F.Cu, Sin cobre de IC2
+ErrType(4): Pista cerca de pad
+    @ (126,934mm,107,454mm): Pista 0,350mm, red [VCC_AUX] (106) en capa F.Cu, longitud: 1,216mm
+    @ (126,934mm,107,954mm): Pad 7 en F.Cu, Sin cobre de IC7
+
+** Found 6 unconnected pads **
+ErrType(2): Pads no conectados
+    @ (122,494mm,104,140mm): Pad 2 en F.Cu, Sin cobre de R19 net GND
+    @ (126,746mm,103,632mm): Pad 2 en F.Cu, Sin cobre de C18
+ErrType(2): Pads no conectados
+    @ (129,540mm,103,764mm): Pad 1 en F.Cu, Sin cobre de R32 net GND
+    @ (129,540mm,101,054mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L6
+ErrType(2): Pads no conectados
+    @ (120,396mm,85,052mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L5 net GND
+    @ (120,396mm,81,746mm): Pad 2 en F.Cu, Sin cobre de D3
+ErrType(2): Pads no conectados
+    @ (120,796mm,85,052mm): Pad P$4 en F.Cu, Sin cobre de L5 net GND
+    @ (120,396mm,85,052mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L5
+ErrType(2): Pads no conectados
+    @ (119,996mm,85,052mm): Pad P$3 en F.Cu, Sin cobre de L5 net GND
+    @ (120,396mm,85,052mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L5
+ErrType(2): Pads no conectados
+    @ (115,316mm,101,346mm): Pad P$5 en F.Cu, B.Cu, Interno, Sin cobre de L3 net GND
+    @ (115,316mm,101,746mm): Pad P$3 en F.Cu, Sin cobre de L3
+
+** End of Report **

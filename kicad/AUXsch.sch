@@ -1,0 +1,253 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Raspberry_PI_B+
+LIBS:RPi_Hat-cache
+LIBS:mpu-9250
+LIBS:pixhawk2
+LIBS:PCA9685
+LIBS:microbuilder
+LIBS:pca9306
+LIBS:EMI
+LIBS:dronPi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X03 P?
+U 1 1 57522761
+P 8450 3450
+F 0 "P?" H 8450 3765 50  0000 C CNN
+F 1 "CONN_02X03" H 8450 3674 50  0000 C CNN
+F 2 "" H 8450 2250 50  0000 C CNN
+F 3 "" H 8450 2250 50  0000 C CNN
+	1    8450 3450
+	-1   0    0    1   
+$EndComp
+Text Notes 8150 3200 0    60   ~ 0
+SPI_CAN_BUS
+$Comp
+L LED D?
+U 1 1 575227F6
+P 5400 3350
+F 0 "D?" H 5400 3565 50  0000 C CNN
+F 1 "LED_rojo" H 5400 3474 50  0000 C CNN
+F 2 "" H 5400 3350 50  0000 C CNN
+F 3 "" H 5400 3350 50  0000 C CNN
+	1    5400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 575228C4
+P 5400 3750
+F 0 "D?" H 5400 3965 50  0000 C CNN
+F 1 "LED_verde" H 5400 3874 50  0000 C CNN
+F 2 "" H 5400 3750 50  0000 C CNN
+F 3 "" H 5400 3750 50  0000 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 57522976
+P 5400 4150
+F 0 "D?" H 5400 4365 50  0000 C CNN
+F 1 "LED_azul" H 5400 4274 50  0000 C CNN
+F 2 "" H 5400 4150 50  0000 C CNN
+F 3 "" H 5400 4150 50  0000 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 575229F6
+P 7600 4200
+F 0 "P?" H 7678 4241 50  0000 L CNN
+F 1 "Buzzer" H 7678 4150 50  0000 L CNN
+F 2 "" H 7600 4200 50  0000 C CNN
+F 3 "" H 7600 4200 50  0000 C CNN
+	1    7600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57503FD2
+P 4700 3350
+F 0 "R?" V 4600 3350 50  0000 C CNN
+F 1 "470" V 4700 3350 50  0000 C CNN
+F 2 "" V 4630 3350 50  0000 C CNN
+F 3 "" H 4700 3350 50  0000 C CNN
+	1    4700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57504042
+P 4700 3750
+F 0 "R?" V 4600 3750 50  0000 C CNN
+F 1 "680" V 4700 3750 50  0000 C CNN
+F 2 "" V 4630 3750 50  0000 C CNN
+F 3 "" H 4700 3750 50  0000 C CNN
+	1    4700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5750407A
+P 4700 4150
+F 0 "R?" V 4600 4150 50  0000 C CNN
+F 1 "680" V 4700 4150 50  0000 C CNN
+F 2 "" V 4630 4150 50  0000 C CNN
+F 3 "" H 4700 4150 50  0000 C CNN
+	1    4700 4150
+	0    1    1    0   
+$EndComp
+Text HLabel 4000 3350 0    60   Input ~ 0
+GND
+Wire Wire Line
+	4550 3750 4300 3750
+Wire Wire Line
+	4300 3350 4300 4450
+Connection ~ 4300 3350
+Wire Wire Line
+	4300 4150 4550 4150
+Connection ~ 4300 3750
+Wire Wire Line
+	5200 3350 4850 3350
+Wire Wire Line
+	5200 3750 4850 3750
+Wire Wire Line
+	5200 4150 4850 4150
+Wire Wire Line
+	4000 3350 4550 3350
+Text HLabel 6200 3750 2    60   Input ~ 0
+LED_1
+Text HLabel 6200 4150 2    60   Input ~ 0
+LED_2
+Wire Wire Line
+	6200 3750 5600 3750
+Wire Wire Line
+	6200 4150 5600 4150
+Text HLabel 6200 3350 2    60   Input ~ 0
++5v
+Wire Wire Line
+	6200 3350 5600 3350
+$Comp
+L GND #PWR?
+U 1 1 57505AF3
+P 4300 4450
+F 0 "#PWR?" H 4300 4450 30  0001 C CNN
+F 1 "GND" H 4300 4380 30  0001 C CNN
+F 2 "" H 4300 4450 60  0001 C CNN
+F 3 "" H 4300 4450 60  0001 C CNN
+	1    4300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57505B17
+P 7250 4450
+F 0 "#PWR?" H 7250 4450 30  0001 C CNN
+F 1 "GND" H 7250 4380 30  0001 C CNN
+F 2 "" H 7250 4450 60  0001 C CNN
+F 3 "" H 7250 4450 60  0001 C CNN
+	1    7250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4250 7250 4250
+Wire Wire Line
+	7250 3550 7250 4450
+Connection ~ 4300 4150
+$Comp
+L D_Schottky_Small D?
+U 1 1 57512CAA
+P 7600 3700
+F 0 "D?" V 7554 3768 50  0000 L CNN
+F 1 "PESD0401-140" H 7300 3600 50  0000 L CNN
+F 2 "" V 7600 3700 50  0000 C CNN
+F 3 "" V 7600 3700 50  0000 C CNN
+	1    7600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L KNH16C104DA5TS L?
+U 1 1 57512D32
+P 7250 3350
+F 0 "L?" H 7250 3554 45  0000 C CNN
+F 1 "KNH16C104DA5TS" H 7250 3470 45  0000 C CNN
+F 2 "KYOCERA-KNH16-DA" H 7280 3500 20  0001 C CNN
+F 3 "" H 7250 3350 60  0001 C CNN
+	1    7250 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 4250
+Wire Wire Line
+	7600 3800 7600 4050
+Wire Wire Line
+	7600 4050 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	8200 3350 7450 3350
+Text HLabel 6850 3350 0    60   Input ~ 0
+3v3
+Wire Wire Line
+	7050 3350 6850 3350
+Wire Wire Line
+	7600 3600 7600 3350
+Connection ~ 7600 3350
+$Comp
+L GND #PWR?
+U 1 1 575140FF
+P 8900 4450
+F 0 "#PWR?" H 8900 4450 30  0001 C CNN
+F 1 "GND" H 8900 4380 30  0001 C CNN
+F 2 "" H 8900 4450 60  0001 C CNN
+F 3 "" H 8900 4450 60  0001 C CNN
+	1    8900 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3550 8900 3550
+Wire Wire Line
+	8900 3550 8900 4450
+$EndSCHEMATC

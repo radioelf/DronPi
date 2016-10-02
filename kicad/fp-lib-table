@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name CrumpPrints)(type Github)(uri https://github.com/tylercrumpton/CrumpPrints.pretty)(options "")(descr ""))
+  (lib (name awallin)(type Github)(uri https://github.com/aewallin/awallinKiCadFootprints.pretty)(options "")(descr ""))
+  (lib (name Tinkerforge)(type Github)(uri https://github.com/Tinkerforge/kicad-libraries)(options "")(descr ""))
+  (lib (name musa)(type Github)(uri https://github.com/musa/kicad-library)(options "")(descr ""))
+  (lib (name dronpi)(type KiCad)(uri /usr/share/kicad/modules/dronpi)(options "")(descr ""))
+)

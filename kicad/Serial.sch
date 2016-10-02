@@ -1,0 +1,234 @@
+EESchema Schematic File Version 2
+LIBS:dronPi-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Raspberry_PI_B+
+LIBS:RPi_Hat-cache
+LIBS:mpu-9250
+LIBS:pixhawk2
+LIBS:PCA9685
+LIBS:microbuilder
+LIBS:pca9306
+LIBS:EMI
+LIBS:crystal
+LIBS:eelib
+LIBS:Carlolib-dev
+LIBS:NPN
+LIBS:DMMT5401
+LIBS:selfmade
+LIBS:3_16
+LIBS:dronPi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R4
+U 1 1 574E65B4
+P 6200 3850
+F 0 "R4" V 6150 3700 50  0000 C CNN
+F 1 "120R" V 6200 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6130 3850 50  0001 C CNN
+F 3 "" H 6200 3850 50  0000 C CNN
+	1    6200 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 574E663A
+P 6200 3650
+F 0 "R3" V 6150 3500 50  0000 C CNN
+F 1 "120R" V 6200 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6130 3650 50  0001 C CNN
+F 3 "" H 6200 3650 50  0000 C CNN
+	1    6200 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 574E667B
+P 6200 3250
+F 0 "R1" V 6150 3100 50  0000 C CNN
+F 1 "120R" V 6200 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6130 3250 50  0001 C CNN
+F 3 "" H 6200 3250 50  0000 C CNN
+	1    6200 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 574E66C7
+P 6200 3450
+F 0 "R2" V 6150 3300 50  0000 C CNN
+F 1 "120R" V 6200 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6130 3450 50  0001 C CNN
+F 3 "" H 6200 3450 50  0000 C CNN
+	1    6200 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3850 6600 3850
+Wire Wire Line
+	6350 3650 6600 3650
+Wire Wire Line
+	6350 3250 6600 3250
+Wire Wire Line
+	6350 3450 6600 3450
+Wire Wire Line
+	5750 3050 6600 3050
+Wire Wire Line
+	5750 3050 5750 3300
+Wire Wire Line
+	5750 3300 5200 3300
+Wire Wire Line
+	5750 3800 5750 4300
+Wire Wire Line
+	5200 3800 5750 3800
+Wire Wire Line
+	6050 3850 5800 3850
+Wire Wire Line
+	5800 3850 5800 3700
+Wire Wire Line
+	5800 3700 5200 3700
+Wire Wire Line
+	6050 3650 5850 3650
+Wire Wire Line
+	5850 3650 5850 3600
+Wire Wire Line
+	5850 3600 5200 3600
+Wire Wire Line
+	5200 3500 5850 3500
+Wire Wire Line
+	5850 3500 5850 3450
+Wire Wire Line
+	5850 3450 6050 3450
+Wire Wire Line
+	6050 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 3400
+Wire Wire Line
+	5800 3400 5200 3400
+Text Notes 5450 3150 2    60   ~ 0
+GPS USART
+Wire Wire Line
+	6400 4200 6600 4200
+$Comp
+L GND #PWR026
+U 1 1 57519B01
+P 6200 4700
+F 0 "#PWR026" H 6200 4700 30  0001 C CNN
+F 1 "GND" H 6200 4630 30  0001 C CNN
+F 2 "" H 6200 4700 60  0001 C CNN
+F 3 "" H 6200 4700 60  0001 C CNN
+	1    6200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4400 6200 4700
+$Comp
+L DIODE-TVS-RESCUE-dronPi D3
+U 1 1 57519B40
+P 5750 4400
+AR Path="/57519B40" Ref="D3"  Part="1" 
+AR Path="/574E586C/57519B40" Ref="D3"  Part="1" 
+F 0 "D3" V 5704 4468 50  0000 L CNN
+F 1 "PESD0402-140" V 5850 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" V 5750 4400 50  0001 C CNN
+F 3 "" V 5750 4400 50  0000 C CNN
+	1    5750 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 4500 5750 4600
+Wire Wire Line
+	5750 4600 6200 4600
+Connection ~ 6200 4600
+$Comp
+L KNH16C104DA5TS L5
+U 1 1 574FAC47
+P 6200 4200
+F 0 "L5" H 6200 4404 45  0000 C CNN
+F 1 "KNH16C104DA5TS" H 6200 4320 45  0000 C CNN
+F 2 "dronpi:KYOCERA-KNH16-DA" H 6230 4350 20  0001 C CNN
+F 3 "" H 6200 4200 60  0001 C CNN
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 4200 2    60   Input ~ 0
+VCC_AUX
+Text GLabel 6600 3850 2    60   Output ~ 0
+UART_TX
+Text GLabel 6600 3650 2    60   Input ~ 0
+UART_RX
+Text GLabel 6600 3450 2    60   Output ~ 0
+UART_CTS
+Text GLabel 6600 3250 2    60   Output ~ 0
+UART_RTS
+Text GLabel 6600 3050 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6000 4200 5750 4200
+Connection ~ 5750 4200
+$Comp
+L JST_6PIN USART5
+U 1 1 575246C8
+P 5100 3500
+F 0 "USART5" H 5209 3592 45  0000 L CNN
+F 1 "JST_6PIN" H 5209 3508 45  0000 L CNN
+F 2 "Connectors_JST:JST_EH_B06B-EH-A_06x2.50mm_Straight" H 5130 3650 20  0001 C CNN
+F 3 "" H 5100 3500 60  0001 C CNN
+	1    5100 3500
+	-1   0    0    1   
+$EndComp
+Text HLabel 6600 4350 2    60   Input ~ 0
+VCC_AUX
+Text HLabel 6600 2950 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6600 4350 6500 4350
+Wire Wire Line
+	6500 4350 6500 4200
+Connection ~ 6500 4200
+Wire Wire Line
+	6600 2950 6500 2950
+Wire Wire Line
+	6500 2950 6500 3050
+Connection ~ 6500 3050
+$EndSCHEMATC

@@ -1,0 +1,404 @@
+EESchema Schematic File Version 2
+LIBS:dronPi-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Raspberry_PI_B+
+LIBS:RPi_Hat-cache
+LIBS:mpu-9250
+LIBS:pixhawk2
+LIBS:PCA9685
+LIBS:microbuilder
+LIBS:pca9306
+LIBS:EMI
+LIBS:crystal
+LIBS:eelib
+LIBS:Carlolib-dev
+LIBS:NPN
+LIBS:DMMT5401
+LIBS:selfmade
+LIBS:3_16
+LIBS:dronPi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADC_ADS1015 IC5
+U 1 1 574FFAD4
+P 6500 3800
+F 0 "IC5" H 6500 4654 45  0000 C CNN
+F 1 "ADC_ADS1115" H 6500 4570 45  0000 C CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 6530 3950 20  0001 C CNN
+F 3 "" H 6500 3800 60  0001 C CNN
+	1    6500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3500 7900 3500
+Wire Wire Line
+	7100 4200 7900 4200
+Wire Wire Line
+	7100 3900 7300 3900
+Wire Wire Line
+	7300 3900 7300 4200
+Connection ~ 7300 4200
+NoConn ~ 7100 4000
+Wire Wire Line
+	7100 3700 7900 3700
+Wire Wire Line
+	7100 3800 7900 3800
+$Comp
+L C C15
+U 1 1 57524BA2
+P 7600 4000
+F 0 "C15" H 7400 4100 50  0000 L CNN
+F 1 "100nF" H 7350 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7638 3850 50  0001 C CNN
+F 3 "" H 7600 4000 50  0000 C CNN
+	1    7600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3350 7600 3850
+Connection ~ 7600 3500
+Connection ~ 7600 4200
+$Comp
+L KNH16C104DA5TS L3
+U 1 1 57573364
+P 3900 3600
+F 0 "L3" H 3900 3804 45  0000 C CNN
+F 1 "KNH16C104DA5TS" H 3900 3720 45  0000 C CNN
+F 2 "dronpi:KYOCERA-KNH16-DA" H 3930 3750 20  0001 C CNN
+F 3 "" H 3900 3600 60  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KNH16C104DA5TS L4
+U 1 1 575733BC
+P 3900 4150
+F 0 "L4" H 3900 4354 45  0000 C CNN
+F 1 "KNH16C104DA5TS" H 3900 4270 45  0000 C CNN
+F 2 "dronpi:KYOCERA-KNH16-DA" H 3930 4300 20  0001 C CNN
+F 3 "" H 3900 4150 60  0001 C CNN
+	1    3900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 575734B4
+P 4850 3600
+F 0 "R16" V 4750 3600 50  0000 C CNN
+F 1 "10K/0.1%" V 4800 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4780 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0000 C CNN
+	1    4850 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 5757358A
+P 4400 3600
+F 0 "R14" V 4500 3600 50  0000 C CNN
+F 1 "10K/0.1%" V 4300 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4330 3600 50  0001 C CNN
+F 3 "" H 4400 3600 50  0000 C CNN
+	1    4400 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R18
+U 1 1 575735EE
+P 5100 4350
+F 0 "R18" V 5000 4250 50  0000 L CNN
+F 1 "10K/0.1%" H 4650 4200 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5030 4350 50  0001 C CNN
+F 3 "" H 5100 4350 50  0000 C CNN
+	1    5100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 57573690
+P 4850 4150
+F 0 "R17" V 4800 4350 50  0000 C CNN
+F 1 "10K/0.1%" V 4950 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4780 4150 50  0001 C CNN
+F 3 "" H 4850 4150 50  0000 C CNN
+	1    4850 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 575736D8
+P 3550 4350
+F 0 "R13" V 3650 4250 50  0000 L CNN
+F 1 "1M" V 3550 4300 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 3480 4350 50  0001 C CNN
+F 3 "" H 3550 4350 50  0000 C CNN
+	1    3550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 57573756
+P 5300 4350
+F 0 "R19" V 5200 4250 50  0000 L CNN
+F 1 "10K/0.1%" V 5400 4200 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5230 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0000 C CNN
+	1    5300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 57573806
+P 3350 4350
+F 0 "R12" V 3450 4250 50  0000 L CNN
+F 1 "1M" V 3350 4300 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 3280 4350 50  0001 C CNN
+F 3 "" H 3350 4350 50  0000 C CNN
+	1    3350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 5757383C
+P 4400 4150
+F 0 "R15" V 4300 4150 50  0000 C CNN
+F 1 "10K/0.1%" V 4500 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4330 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0000 C CNN
+	1    4400 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3700 5900 3700
+Wire Wire Line
+	4650 3700 4650 3600
+Wire Wire Line
+	4550 3600 4700 3600
+Connection ~ 4650 3600
+Wire Wire Line
+	5300 3600 5000 3600
+Wire Wire Line
+	4250 3600 4100 3600
+Wire Wire Line
+	2750 3600 3700 3600
+Wire Wire Line
+	3550 4200 3550 3600
+Connection ~ 3550 3600
+$Comp
+L GND #PWR011
+U 1 1 5757464F
+P 7600 4600
+F 0 "#PWR011" H 7600 4600 30  0001 C CNN
+F 1 "GND" H 7600 4530 30  0001 C CNN
+F 2 "" H 7600 4600 60  0001 C CNN
+F 3 "" H 7600 4600 60  0001 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5757467F
+P 3550 4750
+F 0 "#PWR012" H 3550 4750 30  0001 C CNN
+F 1 "GND" H 3550 4680 30  0001 C CNN
+F 2 "" H 3550 4750 60  0001 C CNN
+F 3 "" H 3550 4750 60  0001 C CNN
+	1    3550 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4500 3550 4750
+Connection ~ 3550 4600
+Wire Wire Line
+	3900 4600 3900 4350
+$Comp
+L GND #PWR013
+U 1 1 575747B2
+P 3900 3850
+F 0 "#PWR013" H 3900 3850 30  0001 C CNN
+F 1 "GND" H 3900 3780 30  0001 C CNN
+F 2 "" H 3900 3850 60  0001 C CNN
+F 3 "" H 3900 3850 60  0001 C CNN
+	1    3900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3800 3900 3850
+Wire Wire Line
+	2750 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 4200
+Wire Wire Line
+	3350 4500 3350 4600
+Wire Wire Line
+	3700 4150 3350 4150
+Connection ~ 3350 4150
+Wire Wire Line
+	4650 3800 5900 3800
+Wire Wire Line
+	4650 3800 4650 4150
+Wire Wire Line
+	4550 4150 4700 4150
+Wire Wire Line
+	5100 4150 5100 4200
+Wire Wire Line
+	5100 4150 5000 4150
+Connection ~ 4650 4150
+Wire Wire Line
+	4250 4150 4100 4150
+Wire Wire Line
+	5300 4600 5300 4500
+Connection ~ 3900 4600
+Wire Wire Line
+	5100 4600 5100 4500
+Connection ~ 5100 4600
+Wire Wire Line
+	7600 4150 7600 4600
+Text GLabel 7900 4200 2    60   Input ~ 0
+GND
+Text GLabel 7900 3500 2    60   Input ~ 0
++3v3
+Text GLabel 7900 3700 2    60   Input ~ 0
+SCL
+Text GLabel 7900 3800 2    60   BiDi ~ 0
+SDA
+Text HLabel 7900 3350 2    60   Input ~ 0
++3v3
+Wire Wire Line
+	7900 3350 7600 3350
+Text HLabel 7900 3600 2    60   Input ~ 0
+SCL
+Text HLabel 7900 3900 2    60   BiDi ~ 0
+SDA
+Wire Wire Line
+	7900 3900 7800 3900
+Wire Wire Line
+	7800 3900 7800 3800
+Connection ~ 7800 3800
+Wire Wire Line
+	7900 3600 7800 3600
+Wire Wire Line
+	7800 3600 7800 3700
+Connection ~ 7800 3700
+Text HLabel 7900 4350 2    60   Input ~ 0
+GND
+Wire Wire Line
+	7900 4350 7800 4350
+Wire Wire Line
+	7800 4350 7800 4200
+Connection ~ 7800 4200
+Text GLabel 2750 3700 0    60   Input ~ 0
+ANL_I
+Text GLabel 2750 3600 0    60   Input ~ 0
+ANL_V
+Wire Wire Line
+	3350 4600 5300 4600
+Text HLabel 2750 3500 0    60   Input ~ 0
+ANL_V
+Text HLabel 2750 3800 0    60   Input ~ 0
+ANL_I
+Wire Wire Line
+	2750 3500 2900 3500
+Wire Wire Line
+	2900 3500 2900 3600
+Connection ~ 2900 3600
+Wire Wire Line
+	2750 3800 2900 3800
+Wire Wire Line
+	2900 3800 2900 3700
+Connection ~ 2900 3700
+Wire Wire Line
+	5300 3600 5300 4200
+$Comp
+L R R55
+U 1 1 5779FBE1
+P 5550 4350
+F 0 "R55" H 5400 4150 50  0000 L CNN
+F 1 "10K/0.1%" V 5650 4200 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5480 4350 50  0001 C CNN
+F 3 "" H 5550 4350 50  0000 C CNN
+	1    5550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R56
+U 1 1 5779FC83
+P 5800 4350
+F 0 "R56" H 5650 4150 50  0000 L CNN
+F 1 "10K/0.1%" V 5900 4200 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5730 4350 50  0001 C CNN
+F 3 "" H 5800 4350 50  0000 C CNN
+	1    5800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4000 5800 4000
+Wire Wire Line
+	5800 4000 5800 4200
+Wire Wire Line
+	5900 3900 5550 3900
+Wire Wire Line
+	5550 3900 5550 4200
+Wire Wire Line
+	5700 4600 5550 4600
+Wire Wire Line
+	5550 4600 5550 4500
+Text Notes 5550 5000 0    60   ~ 0
+AUX. ADC
+$Comp
+L CONN_01X02 ADC1
+U 1 1 5779FB2F
+P 5750 4850
+F 0 "ADC1" V 5622 4978 50  0000 L CNN
+F 1 "CONN_01X02" V 5713 4978 50  0000 L CNN
+F 2 "Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 5750 4850 50  0001 C CNN
+F 3 "" H 5750 4850 50  0000 C CNN
+	1    5750 4850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5800 4500 5800 4650
+Wire Wire Line
+	5700 4600 5700 4650
+$EndSCHEMATC
