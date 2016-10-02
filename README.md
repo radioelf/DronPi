@@ -1,7 +1,7 @@
 # DronPi
 Placa sensores para ardupilot y Raspberry 
 
-Sensores:
+Sensores:  
     -***MS5612*** Sensor de presión barométrica (Bus SPI)   
     -***MPU-9250*** 	Giroscopio/Acelerómetro/Compás interno/9-AXIS (Bus SPI)   
     -***MCP2515*** CAN Bus (Bus SPI)  
