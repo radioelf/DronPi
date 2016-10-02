@@ -9,7 +9,7 @@ Sensores:
 
 Periféricos:
 zumbador
-Uard
+RS-232
 i2C
 PowerOOF
 PPM, S-BUS
