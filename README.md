@@ -1,4 +1,4 @@
-# DronPi
+# DronPi (Ver. ALFA)  
 Placa sensores para [ardupilot](https://github.com/ArduPilot) y Raspberry 
 
 Sensores:  
