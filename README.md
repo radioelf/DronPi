@@ -10,7 +10,7 @@ Sensores:
 
 Periféricos: zumbador, RS-232, i2C, PowerOOF, PPM S-BUS, ADC, Can-Bus, HATs (Hardware Attached on Top)
 
-http://radioelf.blogspot.com.es/
+http://radioelf.blogspot.com.es/  
 https://www.youtube.com/watch?v=Fd6dcFx_-Ns (test..)
 
 
