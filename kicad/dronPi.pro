@@ -1,4 +1,4 @@
-update=vie 02 sep 2016 15:40:07 CEST
+update=vie 14 oct 2016 17:28:52 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/usr/share/kicad/library/externas;/usr/share/kicad/library/externas/libs
@@ -72,8 +74,6 @@ LibName42=libs/NPN
 LibName43=libs/DMMT5401
 LibName44=selfmade
 LibName45=3_16
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -81,7 +81,6 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
