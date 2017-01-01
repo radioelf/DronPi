@@ -14,7 +14,7 @@ http://radioelf.blogspot.com.es/
 https://www.youtube.com/watch?v=Fd6dcFx_-Ns (test..)
 
 1/01/17
-Changed IC12 SN74LVC1G07 for SN74AHC1G04 (to user Sbus)
+Changed IC12 SN74LVC1G07 for SN74AHC1G04 (to use S-bus)
 
 
 ## Creative Commons License Disclaimer
