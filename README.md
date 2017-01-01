@@ -1,4 +1,4 @@
-# DronPi (Ver. ALFA)  
+# DronPi 
 Placa sensores para [ardupilot](https://github.com/ArduPilot) y Raspberry 
 
 Sensores:  
@@ -12,6 +12,9 @@ Periféricos: zumbador, RS-232, i2C, PowerOOF, PPM S-BUS, ADC, Can-Bus, HATs (Ha
 
 http://radioelf.blogspot.com.es/  
 https://www.youtube.com/watch?v=Fd6dcFx_-Ns (test..)
+
+1/01/17
+Changed IC12 SN74LVC1G07 for SN74AHC1G04 (to user Sbus)
 
 
 ## Creative Commons License Disclaimer
