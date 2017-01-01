@@ -29,23 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Raspberry_PI_B+
-LIBS:RPi_Hat-cache
-LIBS:mpu-9250
-LIBS:pixhawk2
-LIBS:PCA9685
-LIBS:microbuilder
-LIBS:pca9306
-LIBS:EMI
-LIBS:crystal
-LIBS:eelib
-LIBS:Carlolib-dev
-LIBS:NPN
-LIBS:DMMT5401
-LIBS:selfmade
-LIBS:3_16
 LIBS:dronPi-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -150,9 +135,11 @@ GPS USART
 Wire Wire Line
 	6400 4200 6600 4200
 $Comp
-L GND #PWR026
+L GND-RESCUE-dronPi #PWR026
 U 1 1 57519B01
 P 6200 4700
+AR Path="/57519B01" Ref="#PWR026"  Part="1" 
+AR Path="/574E586C/57519B01" Ref="#PWR026"  Part="1" 
 F 0 "#PWR026" H 6200 4700 30  0001 C CNN
 F 1 "GND" H 6200 4630 30  0001 C CNN
 F 2 "" H 6200 4700 60  0001 C CNN

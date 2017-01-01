@@ -29,23 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Raspberry_PI_B+
-LIBS:RPi_Hat-cache
-LIBS:mpu-9250
-LIBS:pixhawk2
-LIBS:PCA9685
-LIBS:microbuilder
-LIBS:pca9306
-LIBS:EMI
-LIBS:crystal
-LIBS:eelib
-LIBS:Carlolib-dev
-LIBS:NPN
-LIBS:DMMT5401
-LIBS:selfmade
-LIBS:3_16
 LIBS:dronPi-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

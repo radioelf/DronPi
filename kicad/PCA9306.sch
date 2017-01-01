@@ -29,23 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Raspberry_PI_B+
-LIBS:RPi_Hat-cache
-LIBS:mpu-9250
-LIBS:pixhawk2
-LIBS:PCA9685
-LIBS:microbuilder
-LIBS:pca9306
-LIBS:EMI
-LIBS:crystal
-LIBS:eelib
-LIBS:Carlolib-dev
-LIBS:NPN
-LIBS:DMMT5401
-LIBS:selfmade
-LIBS:3_16
 LIBS:dronPi-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -206,9 +191,11 @@ Connection ~ 7450 4850
 Connection ~ 4300 3700
 Connection ~ 4600 3900
 $Comp
-L GND #PWR03
+L GND-RESCUE-dronPi #PWR03
 U 1 1 574FB8FC
 P 5550 5000
+AR Path="/574FB8FC" Ref="#PWR03"  Part="1" 
+AR Path="/574EEDC4/574FB8FC" Ref="#PWR03"  Part="1" 
 F 0 "#PWR03" H 5550 5000 30  0001 C CNN
 F 1 "GND" H 5550 4930 30  0001 C CNN
 F 2 "" H 5550 5000 60  0001 C CNN
@@ -217,9 +204,11 @@ F 3 "" H 5550 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND-RESCUE-dronPi #PWR04
 U 1 1 574FBDE8
 P 6500 2650
+AR Path="/574FBDE8" Ref="#PWR04"  Part="1" 
+AR Path="/574EEDC4/574FBDE8" Ref="#PWR04"  Part="1" 
 F 0 "#PWR04" H 6500 2650 30  0001 C CNN
 F 1 "GND" H 6500 2580 30  0001 C CNN
 F 2 "" H 6500 2650 60  0001 C CNN
