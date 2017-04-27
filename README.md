@@ -1,5 +1,5 @@
 # DronPi 
-Placa sensores para [ardupilot](https://github.com/ArduPilot) y Raspberry 
+Placa sensores para [ardupilot](https://github.com/ArduPilot) y Raspberry o [DuePi](https://github.com/radioelf/Code-Test-Arduino-Due-DuePi-)
 
 Sensores:  
     -***MS5611*** Sensor de presión barométrica (Bus SPI)   
